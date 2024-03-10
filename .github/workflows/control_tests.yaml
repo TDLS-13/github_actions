@@ -4,6 +4,7 @@ jobs:
         qa:
                 name: Check tests
                 runs-on: ubuntu-20.04
+
         steps:
                 name: Checkout on master
                 uses: actions/checkout@v3
